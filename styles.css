@@ -1,0 +1,71 @@
+ body, html{
+  background-color: black;
+  margin:0;
+  padding: 0;
+  overflow-x: hidden;
+ }
+
+ 
+.main-wrapper {
+    position: absolute;
+    
+
+    top: 10%;
+    left: 25%;
+
+    width: 50%;
+    height: 80%;
+    background-color: transparent;
+}
+
+.breathe-instruction-wrapper {
+    position: absolute;
+
+    background-color: transparent;
+    color: white;
+
+    top: 35%;
+    left: 20%;
+
+}
+
+
+.breathe-animation-wrapper{
+    position: absolute;
+    left: 60%;
+    top: 10%;
+    background-color: transparent;
+    padding: 15px;
+
+}
+
+.count {
+    width: 100px;
+    height: 100px;
+    background-color: #00ffff;
+}
+
+.countDown-wrapper{
+    position: relative;
+    width: 25%;
+    
+    top: 40vh;
+    left: 70vw;
+    
+    color: white;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 600px) {
+    .countDown-wrapper{
+        display:none;
+    }
+
+    .breathe-instruction-wrapper{
+        left: -33%;
+        top: 34%;
+        
+        font-size: 12px;
+    }
+}
